@@ -1,0 +1,1453 @@
+*,
+*::before,
+*::after {
+        margin: 0;
+        padding: 0;
+
+        box-sizing: inherit;
+}
+
+.header {
+        display: flex;
+        align-items: center;
+        height: 40px;
+        font-size: 1.5rem;
+        margin: 0 60px;
+}
+
+#toggler .header label {
+        display: none;
+}
+
+.header label {
+        right: 0;
+}
+
+.header .header_child:nth-child(1) {
+        flex-basis: 20%;
+}
+
+.header .header_child:nth-child(2) {
+        flex-basis: 80%;
+}
+
+.header .header_child .nav {
+        display: flex;
+        justify-content: space-between;
+        overflow: hidden;
+}
+
+.header .header_child .nav ul {
+        display: flex;
+        list-style-type: none;
+}
+
+.header .header_child .nav ul li {
+        height: 100%;
+
+}
+
+.header .header_child .nav ul li a {
+        text-decoration: none;
+        padding: 0 15px;
+        color: inherit;
+
+}
+
+.header .header_child:nth-child(1) img {
+        width: 100px;
+}
+
+body {
+        color: black;
+        /* padding: 0 50px; */
+        box-sizing: border-box;
+        margin: 0;
+}
+
+.banner {
+        /* background-color:#e7e7e7 ; */
+        background-color: rgb(194, 224, 250);
+        position: relative;
+        height: calc(80vh - 40px);
+        display: flex;
+        align-items: center;
+        padding-left: 50px;
+        font-size: 1.5rem;
+        margin-top: 12px;
+}
+
+.banner .bximg {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 55%;
+        height: 100%;
+}
+
+.bximg img {
+        width: 100%;
+        height: 100%;
+}
+
+.banner .content h2 {
+        font-size: 3rem;
+        text-transform: capitalize;
+
+}
+
+.banner .content h3 {
+        width: 500px;
+}
+
+html {
+        font-size: 10px;
+}
+
+.banner .content p {
+        font-size: 1.6rem;
+        text-transform: capitalize;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        text-align: left;
+        width: 55%;
+
+}
+
+.btn-green {
+        display: inline-block;
+        padding: 8px 15px;
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        border-radius: 3px;
+        background-color: rgb(0, 103, 184);
+}
+
+.btn-pink {
+        display: inline-block;
+        padding: 8px 15px;
+        text-decoration: none;
+        color: black;
+        font-size: 15px;
+        border-radius: 5%;
+
+}
+
+.banner .content .btn:nth-of-type(1) {
+        margin-right: 4rem;
+}
+
+#toggler {
+        display: none;
+}
+
+.header label {
+        display: none;
+}
+
+@media(max-width:1200px) {
+
+        .header {
+                display: flex;
+                align-items: center;
+                height: 80px;
+                font-size: 1.5rem;
+
+                flex-direction: column;
+                padding: 0 30px;
+        }
+
+        body {
+                /* padding: 0 20px; */
+        }
+
+        .header .header_child .nav {
+                display: flex;
+                justify-content: space-between;
+        }
+
+        .banner1 .imgBx img {
+                float: right;
+        }
+
+}
+
+@media(max-width:900px) {
+        .header .header_child .nav {
+                display: block;
+                position: absolute;
+                top: 40px;
+                right: 0px;
+                width: 0px;
+                height: calc(100vh - 40px);
+                background-color: #f7f3f3f5;
+                z-index: 10;
+                transition: width .2s;
+        }
+
+        #toggler:checked+.nav {
+                width: 300px;
+                overflow: hidden;
+        }
+
+        .header label {
+                display: block;
+        }
+
+        .header {
+                height: 40px;
+                flex-direction: row;
+                justify-content: space-between;
+        }
+
+        .header .header_child .nav ul {
+                display: block;
+        }
+
+        #toggler .header label {
+                display: none;
+        }
+
+}
+
+@media(max-width:480px) {
+        .header .header_child:nth-child(1) img {
+                width: 80px !important;
+                /* margin-left: 6rem !important; */
+        }
+        .header {
+                margin-top: 1rem;
+        }
+
+        .header label {
+                /* margin-left: 8rem; */
+                margin-right: 2rem !important;
+
+        }
+        .header .header_child .nav ul li{
+                margin-bottom: 1rem;
+        }
+        .header .header_child .nav{
+                padding: 1rem;
+                margin-top: 10px !important;
+        }
+
+        .banner .bximg {
+                width: 100%;
+                margin: 0;
+                height: 32%;
+                padding: 0;
+        }
+
+        .banner img {
+                width: 300px !important;
+                height: 180px !important;
+                margin: 0;
+                padding: 0;
+        }
+
+        .banner {
+                padding: 0;
+                margin: 0;
+                background-color: white;
+                height: 75vh;
+
+        }
+
+        .banner h2 {
+                font-size: 2rem;
+                /* margin-top: 2rem; */
+        }
+
+        #two .content h2 {
+                font-size: 19px !important;
+                margin-top: 7rem !important;
+        }
+
+        #two .content h3 {
+                font-size: 19px !important;
+                width: 250px !important;
+        }
+
+        .banner p {
+                width: 100%;
+                font-size: 15px;
+                line-height: 1.5;
+        }
+
+        .banner .content {
+                margin-top: 11rem;
+                /* padding: 13px; */
+                width: 100%;
+                margin-left: 20px;
+        }
+
+        .btns {
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+        }
+
+        .btns .btn-green {
+                width: 40%;
+                margin-bottom: 1rem;
+        }
+
+        .btns .btn-pink {
+                font-size: 15px;
+        }
+
+        #need {
+                margin: 0px;
+                padding: 0px;
+        }
+
+        .apps .row {
+                margin: 0px;
+        }
+
+        .card .imgBx {
+                width: 82%;
+                margin: 0px;
+                margin: 0 1rem;
+        }
+
+        .card img {
+                width: 100%;
+                margin: 0px;
+        }
+
+        .item .card .content {
+                padding: 1rem;
+        }
+
+        .item .card h1 {
+                font-size: 20px;
+                width: 90%;
+        }
+
+        .item .card p {
+                font-size: 15px;
+                line-height: 1.5;
+                width: 85%;
+        }
+
+        .banner1 {
+                width: 82% !important;
+                height: 50vh !important;
+                background-color: white;
+                display: block !important;
+                padding: 0px;
+                text-align: center;
+
+
+        }
+
+        .banner1 .imgBx {
+                margin: 0px;
+        }
+
+        .banner1 .imgBx img {
+                width: 200px;
+                height: 100%;
+                border: 1px solid green;
+                margin-left: 0px !important;
+                float: none !important;
+        }
+
+        .banner1 .content {
+                margin-left: 0px !important;
+        }
+
+        footer {
+                padding: 20px 30px !important;
+        }
+
+        .sections {
+                display: block !important;
+                gap: 8rem !important;
+        }
+
+        .store,
+        .education,
+        .business,
+        .developer,
+        .company {
+                margin-bottom: 4rem;
+        }
+
+        .lower,
+        .first {
+                display: block !important;
+        }
+
+        .first {
+                margin-bottom: 2rem;
+                line-height: 2;
+        }
+
+        .second {
+
+                text-align: left;
+                border: 1px solid green;
+                gap: none !important;
+                display: none !important;
+
+        }
+
+        .second p {
+                border: 1px solid red;
+                margin: none;
+                width: 100%;
+                font-size: 10px !important;
+
+
+        }
+
+        /* 365 styling */
+        .side {
+                display: block !important;
+
+        }
+
+        .discovery {
+                margin: 0px !important;
+        }
+
+        .discovery h2 {
+                /* margin-right: 35px; */
+                font-size: 20px !important;
+                width: 250px !important;
+                margin-left: 10px !important;
+        }
+
+        .first-side {
+                padding: 10px;
+                border-bottom:  1px solid rgb(232, 232, 232);
+                width: 270px;
+        }
+
+        .first-side p {
+                width: 240px !important;
+                font-size: 13px !important;
+        }
+
+        .first-side .img img {
+                width: 200px;
+                height: 190px;
+                margin-left: 2.5rem;
+
+        }
+        .first-side h3{
+                font-size: 18px !important;
+        }
+        .first .btn{
+                font-size: 15px !important;
+        }
+
+        .second-side {
+                padding-left: 10px !important;
+                margin-top: 2rem;
+                border-bottom: 1px solid rgb(232, 232, 232) !important;
+        }
+
+        .second-side p {
+                width: 250px !important;
+                font-size: 13px !important;
+                text-align: left !important;
+        }
+
+        .part {
+                display: block !important;
+        }
+        .part h3{
+                font-size: 18px !important;
+                margin-bottom: 1rem !important;
+
+        }
+
+        #lit {
+                margin-bottom: 20px;
+                display: none !important;
+        }
+
+        .part img {
+                margin-left: 2.5rem !important;
+                width: 200px !important;
+                height: 200px !important;
+
+        }
+
+        .new-btn {
+                display: flex !important;
+                flex-direction: column !important;
+        }
+
+        .new-btn a {
+                width: 240px !important;
+                font-size: 14px;
+        }
+
+        .carousel {
+                margin: 0px !important;
+        }
+
+        .cont {
+                display: flex !important;
+                flex-direction: column !important;
+                padding: 0px !important;
+                height: 37vh !important;
+                width: 270px !important;
+
+        }
+
+        .cont img {
+                margin: 3rem 0px 2.5rem 2.2rem;
+        }
+
+        .cont .text {
+                margin-left: 2rem;
+        }
+
+        .cont .text h3 {
+                font-size: 16px !important;
+                width: 240px !important;
+                margin-bottom: 1.3rem;
+        }
+
+        .connected {
+                margin: 0px !important;
+        }
+
+        .connected h2 {
+                font-size: 18px !important;
+                width: 245px;
+                margin: 50px 0px 0px 19px !important;
+        }
+
+        .drop-right {
+                display: flex !important;
+                flex-direction: column !important;
+                float: top !important;
+        }
+        .drop-down .each{
+                width: 250px !important;
+                padding: 0px !important;
+        }
+        .deep img{
+                height: 35px !important;
+                width: 35px !important;
+        }
+        .deep h3{
+                font-size: 15px !important;
+        }
+
+        .drop-img img {
+                height: 130px !important;
+                margin: 0px !important;
+                width: 230px !important;
+                display: none;
+        }
+
+        .plan p {
+                text-align: left !important;
+                font-size: 13px !important;
+                line-height: 1.5;
+                width: 250px !important;
+                margin-left: 15px !important;
+        }
+
+        .plan h3 {
+                font-size: 22px !important;
+                margin: 0px 0px 10px 15px;
+                text-align: left !important;
+
+        }
+
+        .line {
+                display: flex;
+                flex-direction: column;
+                margin: 2rem !important;
+        }
+
+        .row-line {
+                margin-bottom: 8rem;
+
+
+        }
+
+        .row-line img {
+                height: 200px !important;
+                width: 240px !important;
+                border-radius: 5px !important;
+        }
+
+        .box-overlay {
+                z-index: 10;
+                top: 55.5% !important;
+                width: 58% !important;
+                height: 25vh !important;
+                left: 3% !important;
+        }
+
+        .shadow {
+                font-size: 15px !important;
+                margin-bottom: 2rem !important;
+        }
+
+        .overlay-btn {
+                font-size: 13px !important;
+                padding: 8px 4rem !important;
+        }
+
+        .box-overlay h4 {
+                font-size: 13px !important;
+                margin: 3rem 0px 0px 4rem !important;
+                line-height: 1.5 !important;
+                width: 130px !important;
+                text-align: left;
+        }
+        .box-overlay #move{
+                display: none !important;
+        }
+
+        .powerful {
+                margin-top: 68rem !important;
+        }
+
+        .powerful h3 {
+                font-size: 19px !important;
+                text-align: left !important;
+                width: 280px;
+                margin-left: 2rem;
+        }
+
+        .create {
+                display: flex !important;
+                flex-direction: column !important;
+        }
+
+        .create-text {
+                margin: 0px !important;
+        }
+
+        .create-text h3 {
+                font-size: 15px !important;
+                text-align: left !important;
+                margin: 0px !important;
+        }
+
+        .create-text p {
+                font-size: 13.5px !important;
+                width: 77% !important;
+                text-align: left !important;
+        }
+
+        .create img {
+                width: 260px !important;
+                height: 200px !important;
+                margin-top: 4rem;
+        }
+
+        .colab-img {
+                padding: 2rem 2rem !important;
+        }
+
+        .colab-img img {
+                width: 235px !important;
+                height: 20vh !important;
+        }
+
+        .colab-text h3 {
+                font-size: 18px !important;
+                width: 220px;
+                margin-left: 4rem;
+                text-align: left !important;
+        }
+
+        .colab-text p {
+                font-size: 14px !important;
+                margin-top: 1rem !important;
+                line-height: 1.5;
+                width: 220px !important;
+                margin-left: 3rem !important;
+                text-align: left !important;
+        }
+
+        .designs {
+                display: flex !important;
+                flex-direction: column !important;
+                padding: 0px !important;
+                margin-left: 2rem !important;
+        }
+
+        .designs-text {
+                margin-top: 0px !important;
+        }
+
+        .designs h3 {
+                font-size: 19px !important;
+                margin-bottom: 1rem;
+        }
+
+        .designs p {
+                font-size: 14px !important;
+                width: 250px !important;
+                margin-bottom: 3rem;
+        }
+        .designs img{
+                width: 240px !important;
+                height: 140px !important;
+                margin: 0px !important;
+        }
+        .organization{
+                margin: 4rem 0px 0px 0px !important ;
+
+        }
+        .organization h2{
+                font-size: 20px !important;
+                width: 250px;
+                text-align: left !important;
+                margin: 0px 0px 0px 1rem !important;
+
+        }
+        .img-row{
+                display: flex !important;
+                flex-direction: row !important;
+                margin: 4rem 0px 0px 3rem !important;
+        }
+        .img-row img{
+                width: 90px;
+                height: 100px;
+        }
+        .remove{
+                display: none;
+        }
+        .siemens img{
+                width: 230px !important;
+                height: 160px !important;
+                margin: 2rem;
+                padding: 0px !important;
+        }
+        .inner{
+                top: 0px !important;
+                left: 0px !important;
+                width: 223px !important;
+                position: relative !important;
+                padding: 0px !important;
+                margin: 2rem 3rem;
+        }
+        .inner h3{
+                font-size: 18px !important;
+        }
+        .inner p{
+                font-size: 14px !important;
+                text-align: left;
+        }
+        .inner h4{
+                font-size: 14px !important;
+        }
+        .inner  .btn-green{
+                padding: 8px 10px !important;
+                font-size: 15px !important;
+        }
+        .inner .btn-pink{
+                padding: 13px 7px !important;
+        }
+        .started{
+                width: 270px !important;
+        }
+        .started h2{
+                font-size: 19px !important;
+        }
+        .bottom-btn{
+                margin-left: 8px !important;
+                display: grid !important;
+                grid-template-columns: repeat(2, 1fr) !important;
+                width: 250px;
+        }
+        .bottom-btn .btn-green{
+                font-size: 13px !important;
+                padding: 8px !important;
+        }
+        .btm-365{
+                padding: 5rem 1rem !important;
+        }
+        .btm-365 p{
+                font-size: 12px !important;
+                width: 250px;
+                line-height: 1.3;
+                margin-bottom: 5rem !important;
+        }
+        
+
+
+}
+#need {
+        margin: 15rem 0;
+}
+.row {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 50px;
+
+}
+
+.row .item {
+        /* padding-top:20px; */
+        flex-grow: 1;
+        flex-shrink: 0;
+        flex-basis: 250px;
+        margin-top: 5px;
+        margin-bottom: 40px;
+}
+
+.row .item:not(:last-of-type) {
+        margin-right: 2rem;
+}
+
+.row .item .card .imgBx img {
+        width: 100%;
+}
+
+.item .card h1 {
+        font-size: 25px;
+}
+
+#text h1 {
+        font-size: 35px;
+        margin-top: 10rem;
+        margin-right: 50px;
+        margin-left: 50px;
+
+
+}
+
+.item .card p {
+        font-size: 20px;
+        margin: 15px 0;
+        line-height: 1.3;
+        margin-bottom: 30px;
+        text-align: left;
+
+}
+
+.item .card .content {
+        font-size: 15px;
+}
+
+.banner1 {
+        background-color: #e6e6e6;
+        position: relative;
+        display: flex;
+        align-items: center;
+        font-size: 15px;
+        height: calc(80vh - 40px);
+        width: 100%;
+        padding-left: 10px;
+}
+
+.banner1 .imgBx img {
+        /* padding-left: 250px; */
+        background-color: #e6e6e6;
+        float: right !important;
+        margin-left: 3rem;
+
+}
+
+.banner1 .content {
+        padding-left: 0px;
+        margin-top: 20px;
+        margin-left: 80px;
+        display: inline-block;
+}
+
+.banner1 .content p {
+        font-size: 18px;
+        margin: 10px 0;
+}
+
+.btn {
+        color: blue;
+        font-size: 18px;
+
+}
+
+.btn-black {
+        border-radius: 2px;
+        background-color: blue;
+        text-decoration: none;
+        color: white;
+        padding: 15px;
+        margin-top: 20px;
+        display: inline-block;
+        font-size: 17px;
+
+}
+
+.extra {
+        display: flex;
+        padding: 40px 15px;
+        margin: 0 50px;
+}
+
+.extra h3 {
+        font-size: 18px;
+        margin-right: 23px;
+
+}
+
+.extra i {
+        font-size: 25px;
+        margin-right: 23px;
+}
+
+.back-up button {
+        font-size: 18px;
+        background-color: rgb(217, 217, 217);
+        border: none;
+        padding: 15px;
+        border-radius: 3px;
+        margin-left: 110rem;
+}
+
+.back-up i {
+        margin-right: 10px;
+}
+
+/* footer */
+footer {
+        background-color: rgb(242, 242, 242);
+        margin-top: 20px;
+        padding: 20px 60px;
+
+}
+
+.sections {
+        display: flex;
+        gap: 6rem;
+        font-size: 19px;
+        line-height: 2;
+        margin-bottom: 40px;
+}
+
+.sections p {
+        text-align: left;
+}
+
+footer h3 {
+        color: rgb(73, 71, 71);
+}
+
+footer p {
+        font-size: 13px;
+}
+
+#f-gap {
+        /* margin-right: 70px; */
+}
+
+.lower {
+        font-size: 13px;
+        display: flex;
+        justify-content: space-between;
+}
+
+.first {
+        display: flex;
+
+}
+
+.country {
+        margin-right: 30px;
+}
+
+.second {
+        display: flex;
+        gap: 25px;
+}
+
+
+/* MICROSOFT 365 */
+.new-btn {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 2rem;
+        margin-top: 2rem;
+        color: white;
+
+}
+
+.new-btn a {
+        text-align: center;
+}
+
+.content h3 {
+        font-size: 25px;
+        margin-top: 20px;
+}
+
+#two {
+        box-shadow: 10px 10px 20px rgb(204, 228, 236);
+        margin-bottom: 6rem;
+
+}
+
+.discovery {
+        margin: 0 70px;
+}
+
+.discovery h2 {
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 40px;
+}
+
+.side {
+        display: flex;
+        justify-content: space-between;
+}
+
+.first-side img {
+        width: 495px;
+        height: 500px;
+        margin-top: 1.5rem;
+
+}
+
+.first-side h3 {
+        font-size: 20px;
+        margin-bottom: 1.5rem;
+}
+
+.first-side p {
+        font-size: 18px;
+        margin-bottom: 2rem;
+        line-height: 1.5;
+        text-align: left;
+        width: 500px;
+}
+
+.first-side img {}
+
+.part {
+        display: flex;
+        margin-bottom: 2rem;
+}
+
+.part img {
+        width: 290px;
+        height: 270px;
+        margin-left: 3rem;
+}
+
+.part p {
+        width: 290px;
+        font-size: 18px;
+        margin-bottom: 2rem;
+        line-height: 1.5;
+        text-align: justify
+}
+
+.part h3 {
+        font-size: 20px;
+        margin-bottom: 1.5rem;
+        width: 220px;
+}
+
+.part #lit {
+        margin-top: 2rem;
+
+}
+
+.second-side {
+        border-left: 2px solid rgb(232, 232, 232);
+        padding-left: 6rem;
+}
+
+.bord {
+        border-bottom: 2px solid rgb(232, 232, 232);
+        padding-bottom: 3rem;
+}
+
+.bord2 {
+        padding-top: 1rem;
+}
+
+.carousel {
+        margin: 9rem 110px;
+
+}
+
+.cont {
+        display: flex;
+        background-color: rgb(244, 243, 245);
+        height: 28vh;
+        padding: 5rem;
+
+}
+
+.cont img {
+        width: 90px;
+        height: 80px;
+}
+
+.text {
+        margin-left: 3rem;
+}
+
+.text h3 {
+        font-size: 25px;
+        margin-bottom: 4rem;
+}
+
+.connected {
+        margin: 0 70px;
+}
+
+.connected h2 {
+        text-align: center;
+        font-size: 30px;
+}
+
+.each {
+        display: flex;
+        margin: 3rem 1rem;
+        padding: 1rem 0;
+        border-top: 2px solid rgb(232, 232, 232);
+        width: 400px;
+
+}
+
+.each i {
+        font-size: 20px;
+        margin: 2rem;
+}
+
+.deep {
+        display: flex;
+}
+
+.deep img {
+        width: 40px;
+        height: 42px;
+        margin-top: 1rem;
+
+}
+
+.deep h3 {
+        font-size: 18px;
+        margin-top: 2rem;
+        margin-left: 1rem;
+}
+
+.drop-right {
+        display: flex;
+}
+
+.drop-img img {
+        width: 750px;
+        height: 430px;
+        margin-top: 15rem;
+}
+
+.plan {
+        margin-top: 5rem;
+        height: 100vh;
+}
+
+.plan h3,
+p {
+        text-align: center;
+}
+
+.plan h3 {
+        font-size: 30px;
+}
+
+.plan p {
+        font-size: 18px;
+}
+.plan-t p{
+        width:60%;
+        margin-left: 30rem;
+}
+
+.row-line {
+        width: 380px;
+        height: 300px;
+        position: relative;
+}
+
+.line {
+        display: flex;
+        gap: 2rem;
+        margin: 4rem 8rem;
+}
+
+.row-line img {
+        width: 380px;
+        height: 300px;
+        border-radius: 10px;
+
+}
+
+.box-overlay {
+        position: absolute;
+        background-color: rgb(216, 59, 1);
+        width: 90%;
+        height: 45vh;
+        text-align: center;
+        top: 80%;
+        left: 5%;
+}
+
+#purple {
+        background-color: rgb(119, 25, 170);
+}
+
+#blue {
+        background-color: rgb(0, 120, 212);
+}
+
+#blue .overlay-btn {
+        color: rgb(0, 120, 212);
+}
+
+#blue h4 {
+        margin-bottom: 2.5rem;
+}
+
+#purple .overlay-btn {
+        color: rgb(119, 25, 170);
+
+}
+
+#blue a {
+        padding: 1rem 3rem;
+}
+
+.shadow {
+        font-size: 20px;
+        color: white;
+        padding: 2rem 0;
+        font-weight: bold;
+        margin-bottom: 4rem;
+
+}
+
+.overlay-btn {
+        font-size: 17px;
+        background-color: white;
+        text-decoration: none;
+        padding: 1rem 9rem;
+        color: rgb(216, 59, 1);
+        border-radius: 2px;
+        width: 800px;
+
+}
+
+.box-overlay h4 {
+        font-size: 17px;
+        color: white;
+        margin-top: 3rem;
+}
+
+.powerful {
+        margin-top: 8rem;
+}
+
+.powerful h3 {
+        font-size: 30px;
+        text-align: center;
+}
+
+.create {
+        display: flex;
+        margin: 6rem 2rem;
+}
+
+.create-text {
+        /* text-align: right; */
+        margin-top: 20rem;
+        margin-left: 9rem;
+}
+
+.create-text h3 {
+        text-align: left;
+}
+
+.create-text p {
+        width: 85%;
+        line-height: 1.5;
+        font-size: 17px;
+        margin-top: 1rem;
+        text-align: left;
+}
+
+.create img {
+        width: 620px;
+        height: 430px;
+        padding: 0;
+}
+
+.colab-img {
+        padding: 2rem 5rem;
+        margin-top: 8rem;
+}
+
+.colab-img img {
+        width: 100%;
+        height: 100vh;
+
+}
+
+.colab-text {
+        margin-top: 3rem;
+}
+
+.colab-text h3,
+p {
+        text-align: center;
+}
+
+.colab-text h3 {
+        font-size: 25px;
+}
+
+.colab-text p {
+        font-size: 17px;
+        margin-top: 1rem;
+        line-height: 1.5;
+        width: 38%;
+        margin-left: 40rem;
+
+}
+
+.designs {
+        display: flex;
+        padding: 2rem 7rem;
+        margin-top: 6rem;
+}
+
+.designs img {
+        width: 650px;
+        height: 350px;
+
+}
+
+.designs h3 {
+        font-size: 25px;
+        width: 80%;
+}
+
+.designs p {
+        font-size: 17px;
+        width: 87%;
+        line-height: 1.5;
+        text-align: left;
+}
+
+.designs-text {
+        margin-top: 10rem;
+}
+
+.organization {
+        margin: 5rem;
+}
+
+.organization h2 {
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 9rem;
+}
+
+.img-row {
+        display: flex;
+        gap: 3rem;
+        margin-left: 35rem;
+}
+
+/* .siemens{
+        width: 90%;
+        height: 70vh;
+        background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(60, 80, 160, 0.7)), url(img/desktop.avif);
+        background-position: center;
+        background-size: cover;
+        margin: 70px 150px;
+} */
+.siemens {
+        position: relative;
+}
+
+.siemens img {
+        width: 100%;
+        height: 70vh;
+        padding: 2rem 18rem;
+
+}
+
+.checks {
+        /* position: absolute;
+        top: 3rem;
+        left: 20rem;
+        color: white; */
+}
+
+.inner {
+        position: absolute;
+        top: 5rem;
+        left: 23rem;
+        color: white;
+        background-color: white;
+        color: black;
+        padding: 6rem 4rem;
+        width: 35%;
+}
+
+.inner h3 {
+        font-size: 25px;
+        margin-bottom: 1rem;
+}
+
+.inner p {
+        font-size: 16px;
+        margin-bottom: 1rem;
+        line-height: 1.5;
+}
+
+.inner h4 {
+        font-size: 17px;
+        margin-bottom: 2rem;
+
+}
+
+.started {
+        background-image: linear-gradient(to right, rgba(222, 231, 243, 0.7), rgba(247, 237, 245, 0.7));
+        width: 100%;
+        height: 25vh;
+        padding: 4rem 0;
+}
+
+.started h2 {
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 2rem;
+}
+
+.bottom-btn {
+        display: flex;
+        gap: 2rem;
+        margin-left: 40rem;
+}
+
+.btm-365 {
+        padding: 7rem;
+
+}
+
+.btm-365 p {
+        font-size: 16px;
+        text-align: left;
+        margin-bottom: 9rem;
+}
