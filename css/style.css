@@ -252,6 +252,7 @@ html {
                 margin: 0;
                 background-color: white;
                 height: 75vh;
+                border: 1px solid blue;
 
         }
 
@@ -305,6 +306,9 @@ html {
         .apps .row {
                 margin: 0px;
         }
+        .apps{
+                border: 1px solid red;
+        }
 
         .card .imgBx {
                 width: 82%;
@@ -339,6 +343,7 @@ html {
                 display: block !important;
                 padding: 0px;
                 text-align: center;
+                border: 1px solid green;
 
 
         }
@@ -350,13 +355,15 @@ html {
         .banner1 .imgBx img {
                 width: 200px;
                 height: 100%;
-                border: 1px solid green;
                 margin-left: 0px !important;
                 float: none !important;
         }
 
         .banner1 .content {
                 margin-left: 0px !important;
+        }
+        .extra{
+                border: 1px solid purple;
         }
 
         footer {
