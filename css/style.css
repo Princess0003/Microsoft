@@ -244,8 +244,8 @@ html {
         }
 
         .banner img {
-                width: 700px !important;
-                height: 50vh !important;
+                width: 100% !important;
+                height: 25vh !important;
                 margin: 0;
                 padding: 0;
         }
