@@ -326,10 +326,11 @@ html {
                 margin: 0px;
         }
         .item .card #extend{
-                width: 80% !important;
+                width: 90% !important;
+                border: 1px solid green;
         }
         .item .card #pass{
-                width: 80% !important;
+                width: 90% !important;
         }
 
         .item .card .content {
