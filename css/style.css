@@ -460,10 +460,10 @@ html {
         }
 
         .first-side .img img {
-                width: 500px;
+                width: 400px;
                 height: 190px;
                 margin-left: 1rem;
-                border: 1px solid red;
+                border: 1px solid purple;
 
         }
         .first-side h3{
