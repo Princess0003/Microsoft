@@ -461,7 +461,7 @@ html {
 
         .first-side .img img {
                 width: 420px;
-                height: 190px;
+                height: 200px;
                 margin-left: 1rem;
                 border: 1px solid yellow;
 
@@ -504,8 +504,8 @@ html {
         .part img {
                 margin-left: 1rem !important;
                 width: 420px !important;
-                height: 190px !important;
-                border: 1px solid red;
+                height: 200px !important;
+                border: 1px solid purple;
 
         }
 
