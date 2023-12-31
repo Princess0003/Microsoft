@@ -505,7 +505,7 @@ html {
 
         .part img {
                 margin-left: 1rem !important;
-                width: 370px !important;
+                max-width: 370px !important;
                 height: 250px !important;
                 border: 1px solid purple;
 
@@ -704,7 +704,7 @@ html {
                 margin-top: 1rem !important;
                 line-height: 1.5;
                 width: 90% !important;
-                margin-left: 1rem !important;
+                margin-left: 2rem !important;
                 text-align: justify !important;
                 border: 1px solid green;
 
