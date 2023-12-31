@@ -460,7 +460,7 @@ html {
         }
 
         .first-side .img img {
-                width: 100%;
+                width: 360px;
                 height: 250px;
                 margin-left: 1rem;
                 border: 1px solid yellow;
@@ -505,8 +505,8 @@ html {
 
         .part img {
                 margin-left: 1rem !important;
-                width: 350px !important;
-                height: 200px !important;
+                width: 360px !important;
+                height: 250px !important;
                 border: 1px solid purple;
 
         }
@@ -586,9 +586,9 @@ html {
                 text-align: justify !important;
                 font-size: 15px !important;
                 line-height: 1.5;
-                width: 100% !important;
+                width: 90% !important;
                 margin-left: 15px !important;
-                border: 1px solid yellow;
+                border: 1px solid blueviolet;
         }
 
         .plan h3 {
@@ -619,8 +619,8 @@ html {
         .box-overlay {
                 z-index: 10;
                 /* top: 55.5% !important; */
-                top: 57% !important;
-                width: 100% !important;
+                top: 56% !important;
+                width: 90% !important;
                 height: 27vh !important;
                 left: 3% !important;
         }
@@ -704,7 +704,7 @@ html {
                 font-size: 15px !important;
                 margin-top: 1rem !important;
                 line-height: 1.5;
-                width: 95% !important;
+                width: 90% !important;
                 margin-left: 3rem !important;
                 text-align: justify !important;
                 border: 1px solid green;
