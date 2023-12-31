@@ -460,8 +460,8 @@ html {
         }
 
         .first-side .img img {
-                width: 420px;
-                height: 200px;
+                width: 320px;
+                height: 250px;
                 margin-left: 1rem;
                 border: 1px solid yellow;
 
@@ -505,7 +505,7 @@ html {
 
         .part img {
                 margin-left: 1rem !important;
-                width: 420px !important;
+                width: 320px !important;
                 height: 200px !important;
                 border: 1px solid purple;
 
@@ -612,7 +612,7 @@ html {
 
         .row-line img {
                 height: 230px !important;
-                width: 430px !important;
+                width: 320px !important;
                 border-radius: 5px !important;
         }
 
