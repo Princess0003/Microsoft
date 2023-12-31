@@ -619,7 +619,7 @@ html {
         .box-overlay {
                 z-index: 10;
                 /* top: 55.5% !important; */
-                top: 58%;
+                top: 58% !important;
                 width: 400px !important;
                 height: 27vh !important;
                 left: 3% !important;
@@ -639,7 +639,7 @@ html {
                 font-size: 16px !important;
                 margin: 3rem 0px 0px 4rem !important;
                 line-height: 1.5 !important;
-                width: 190px !important;
+                width: 220px !important;
                 text-align: left;
         }
         .box-overlay #move{
@@ -728,9 +728,10 @@ html {
 
         .designs p {
                 font-size: 15px !important;
-                width: 100% !important;
+                width: 430px !important;
                 margin-bottom: 3rem;
                 text-align: justify !important;
+                border: 1px solid blue;
         }
         .designs img{
                 width: 95% !important;
