@@ -619,8 +619,8 @@ html {
         .box-overlay {
                 z-index: 10;
                 /* top: 55.5% !important; */
-                top: 58% !important;
-                width: 400px !important;
+                top: 57% !important;
+                width: 410px !important;
                 height: 27vh !important;
                 left: 3% !important;
         }
@@ -704,9 +704,11 @@ html {
                 font-size: 15px !important;
                 margin-top: 1rem !important;
                 line-height: 1.5;
-                width: 310px !important;
+                width: 100% !important;
                 margin-left: 3rem !important;
                 text-align: justify !important;
+                border: 1px solid blue;
+
         }
 
         .designs {
@@ -728,10 +730,9 @@ html {
 
         .designs p {
                 font-size: 15px !important;
-                width: 430px !important;
+                width: 100% !important;
                 margin-bottom: 3rem;
                 text-align: justify !important;
-                border: 1px solid blue;
         }
         .designs img{
                 width: 95% !important;
