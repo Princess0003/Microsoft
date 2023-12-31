@@ -637,7 +637,7 @@ html {
 
         .box-overlay h4 {
                 font-size: 16px !important;
-                margin: 6rem 0px 0px 4rem !important;
+                margin: 4rem 0px 0px 4rem !important;
                 line-height: 1.5 !important;
                 width: 220px !important;
                 text-align: left;
@@ -704,7 +704,7 @@ html {
                 font-size: 15px !important;
                 margin-top: 1rem !important;
                 line-height: 1.5;
-                width: 440px !important;
+                width: 420px !important;
                 margin-left: 3rem !important;
                 text-align: justify !important;
                 border: 1px solid rgb(6, 28, 61);
@@ -730,7 +730,7 @@ html {
 
         .designs p {
                 font-size: 15px !important;
-                width: 90% !important;
+                width: 95% !important;
                 margin-bottom: 3rem;
                 text-align: justify !important;
         }
