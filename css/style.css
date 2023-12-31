@@ -454,7 +454,7 @@ html {
         }
 
         .first-side p {
-                width: 450px !important;
+                width: 440px !important;
                 font-size: 17px !important;
                 text-align: justify !important;
         }
@@ -493,7 +493,7 @@ html {
         .part h3{
                 font-size: 25px !important;
                 margin-bottom: 1rem !important;
-                width: 90% !important;
+                width: 95% !important;
                 border: 1px solid pink;
 
         }
@@ -586,9 +586,9 @@ html {
                 text-align: justify !important;
                 font-size: 15px !important;
                 line-height: 1.5;
-                width: 100% !important;
+                width: 440px !important;
                 margin-left: 15px !important;
-                border: 1px solid red;
+                border: 1px solid blueviolet;
         }
 
         .plan h3 {
@@ -605,14 +605,14 @@ html {
         }
 
         .row-line {
-                margin-bottom: 10rem;
+                margin-bottom: 14rem;
 
 
         }
 
         .row-line img {
-                height: 200px !important;
-                width: 400px !important;
+                height: 220px !important;
+                width: 420px !important;
                 border-radius: 5px !important;
         }
 
