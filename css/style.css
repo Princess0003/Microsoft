@@ -454,7 +454,7 @@ html {
         }
 
         .first-side p {
-                width: 400px !important;
+                width: 380px !important;
                 font-size: 17px !important;
                 text-align: justify !important;
         }
@@ -467,9 +467,9 @@ html {
 
         }
         .first-side h3{
-                font-size: 25px !important;
+                font-size: 20px !important;
                 width: 430px;
-                border: 1px solid green;
+                border: 1px solid blue;
         }
         .first .btn{
                 font-size: 15px !important;
@@ -491,7 +491,7 @@ html {
                 display: block !important;
         }
         .part h3{
-                font-size: 25px !important;
+                font-size: 20px !important;
                 margin-bottom: 1rem !important;
                 width: 95% !important;
                 border: 1px solid pink;
@@ -704,7 +704,7 @@ html {
                 margin-top: 1rem !important;
                 line-height: 1.5;
                 width: 90% !important;
-                margin-left: 3rem !important;
+                margin-left: 1rem !important;
                 text-align: justify !important;
                 border: 1px solid green;
 
