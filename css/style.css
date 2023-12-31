@@ -588,7 +588,7 @@ html {
                 line-height: 1.5;
                 width: 430px !important;
                 margin-left: 15px !important;
-                border: 1px solid rgb(228, 53, 134);
+                border: 1px solid rgb(16, 161, 64);
         }
 
         .plan h3 {
@@ -611,15 +611,16 @@ html {
         }
 
         .row-line img {
-                height: 210px !important;
+                height: 230px !important;
                 width: 430px !important;
                 border-radius: 5px !important;
         }
 
         .box-overlay {
                 z-index: 10;
-                top: 55.5% !important;
-                width: 100% !important;
+                /* top: 55.5% !important; */
+                top: 58%;
+                width: 400px !important;
                 height: 27vh !important;
                 left: 3% !important;
         }
@@ -638,7 +639,7 @@ html {
                 font-size: 16px !important;
                 margin: 3rem 0px 0px 4rem !important;
                 line-height: 1.5 !important;
-                width: 170px !important;
+                width: 190px !important;
                 text-align: left;
         }
         .box-overlay #move{
@@ -722,12 +723,12 @@ html {
         .designs h3 {
                 font-size: 20px !important;
                 margin-bottom: 1rem;
-                width: 100%;
+                width: 100% !important;
         }
 
         .designs p {
                 font-size: 15px !important;
-                width: 95% !important;
+                width: 100% !important;
                 margin-bottom: 3rem;
                 text-align: justify !important;
         }
