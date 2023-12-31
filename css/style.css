@@ -468,7 +468,7 @@ html {
         }
         .first-side h3{
                 font-size: 25px !important;
-                width: 450px;
+                width: 430px;
                 border: 1px solid purple;
         }
         .first .btn{
@@ -482,7 +482,7 @@ html {
         }
 
         .second-side p {
-                width: 90% !important;
+                width: 95% !important;
                 font-size: 17px !important;
                 text-align: justify !important;
         }
@@ -586,9 +586,9 @@ html {
                 text-align: justify !important;
                 font-size: 15px !important;
                 line-height: 1.5;
-                width: 450px !important;
+                width: 100% !important;
                 margin-left: 15px !important;
-                border: 1px solid green;
+                border: 1px solid red;
         }
 
         .plan h3 {
@@ -605,21 +605,21 @@ html {
         }
 
         .row-line {
-                margin-bottom: 8rem;
+                margin-bottom: 10rem;
 
 
         }
 
         .row-line img {
                 height: 200px !important;
-                width: 325px !important;
+                width: 400px !important;
                 border-radius: 5px !important;
         }
 
         .box-overlay {
                 z-index: 10;
                 top: 55.5% !important;
-                width: 80% !important;
+                width: 100% !important;
                 height: 27vh !important;
                 left: 3% !important;
         }
