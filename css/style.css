@@ -454,7 +454,7 @@ html {
         }
 
         .first-side p {
-                width: 500px !important;
+                width: 90% !important;
                 font-size: 17px !important;
                 text-align: justify !important;
         }
@@ -468,8 +468,8 @@ html {
         }
         .first-side h3{
                 font-size: 25px !important;
-                width: 500px;
-                border: 1px solid green;
+                width: 90%;
+                border: 1px solid brown;
         }
         .first .btn{
                 font-size: 15px !important;
