@@ -468,7 +468,7 @@ html {
         }
         .first-side h3{
                 font-size: 20px !important;
-                width: 430px;
+                width: 95%;
                 border: 1px solid blue;
         }
         .first .btn{
@@ -505,7 +505,7 @@ html {
 
         .part img {
                 margin-left: 1rem !important;
-                max-width: 370px !important;
+                width: 370px !important;
                 height: 250px !important;
                 border: 1px solid purple;
 
@@ -544,7 +544,7 @@ html {
 
         .cont .text h3 {
                 font-size: 18px !important;
-                /* width: 240px !important; */
+                width: 240px !important;
                 margin-bottom: 1.3rem;
         }
 
@@ -553,7 +553,7 @@ html {
         }
 
         .connected h2 {
-                font-size: 23px !important;
+                font-size: 20px !important;
                 /* width: 245px; */
                 margin: 50px 0px 0px 19px !important;
         }
@@ -801,7 +801,7 @@ html {
                 font-size: 21px !important;
         }
         .bottom-btn{
-                margin-left: 15px !important;
+                margin-left: 25px !important;
                 display: grid !important;
                 grid-template-columns: repeat(2, 1fr) !important;
                 width: 330px;
