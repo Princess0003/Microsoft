@@ -454,13 +454,13 @@ html {
         }
 
         .first-side p {
-                width: 440px !important;
+                width: 400px !important;
                 font-size: 17px !important;
                 text-align: justify !important;
         }
 
         .first-side .img img {
-                width: 360px;
+                width: 370px;
                 height: 250px;
                 margin-left: 1rem;
                 border: 1px solid yellow;
@@ -469,7 +469,7 @@ html {
         .first-side h3{
                 font-size: 25px !important;
                 width: 430px;
-                border: 1px solid purple;
+                border: 1px solid green;
         }
         .first .btn{
                 font-size: 15px !important;
@@ -505,7 +505,7 @@ html {
 
         .part img {
                 margin-left: 1rem !important;
-                width: 360px !important;
+                width: 370px !important;
                 height: 250px !important;
                 border: 1px solid purple;
 
@@ -605,7 +605,7 @@ html {
         }
 
         .row-line {
-                margin-bottom: 14rem;
+                margin-bottom: 8rem;
 
 
         }
@@ -618,9 +618,8 @@ html {
 
         .box-overlay {
                 z-index: 10;
-                /* top: 55.5% !important; */
-                top: 56% !important;
-                width: 90% !important;
+                top: 55.5% !important;
+                width: 92% !important;
                 height: 27vh !important;
                 left: 3% !important;
         }
