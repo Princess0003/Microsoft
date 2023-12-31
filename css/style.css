@@ -482,7 +482,7 @@ html {
         }
 
         .second-side p {
-                width: 100% !important;
+                width: 90% !important;
                 font-size: 17px !important;
                 text-align: justify !important;
         }
@@ -493,8 +493,8 @@ html {
         .part h3{
                 font-size: 25px !important;
                 margin-bottom: 1rem !important;
-                width: 100% !important;
-                border: 1px solid yellow;
+                width: 90% !important;
+                border: 1px solid pink;
 
         }
 
