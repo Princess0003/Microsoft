@@ -586,9 +586,9 @@ html {
                 text-align: justify !important;
                 font-size: 15px !important;
                 line-height: 1.5;
-                width: 440px !important;
+                width: 430px !important;
                 margin-left: 15px !important;
-                border: 1px solid blueviolet;
+                border: 1px solid rgb(228, 53, 134);
         }
 
         .plan h3 {
@@ -611,8 +611,8 @@ html {
         }
 
         .row-line img {
-                height: 220px !important;
-                width: 420px !important;
+                height: 210px !important;
+                width: 430px !important;
                 border-radius: 5px !important;
         }
 
@@ -638,7 +638,7 @@ html {
                 font-size: 16px !important;
                 margin: 3rem 0px 0px 4rem !important;
                 line-height: 1.5 !important;
-                width: 150px !important;
+                width: 170px !important;
                 text-align: left;
         }
         .box-overlay #move{
